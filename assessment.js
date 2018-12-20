@@ -10,7 +10,7 @@
   * @param {HTMLElement} element HTMLの要素
   */
   function removeAllChildren(element) {
-      while (element.firstChild) { // 子どもの要素があるかぎり削除
+      while (element.firstChild) { // 子どもの要素があるかぎり削除。
           element.removeChild(element.firstChild);
       }
   }
